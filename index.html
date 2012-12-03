@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="phone-life">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>PhoneLife</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/docs.css" rel="stylesheet">
+  <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+  <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+  <link href="css/ui-lightness/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </a>
+        <a class="brand" href="javascript:;">PhoneLife</a>
+      </div>
+    </div>
+    <!--
+    <a href="https://github.com/RestOpenGov/ideas-ba">
+      <img style="position: absolute; top: 0; right: 0; border: 0;" 
+        src="img/rightcorner-beta-ribbon.png" alt="IdeasBA.org - BETA">
+    </a>-->
+  </div>
+
+  <div class="container-fluid master-container">
+    <div class="row-fluid">
+      <div class="span12">
+        <div id="viewContainer" ng-view></div>
+      </div>
+    </div>
+  </div>
+
+  <div id="footer">
+    <p>@palamago</p>    
+  </div>
+
+  <div class="modal hide fade" id="errorModal" tabindex="-1" role="dialog" aria-labelledby="errorLabel" aria-hidden="true">
+    <div class="modal-header">
+      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+      <h3 id="errorLabel">Lo sentimos, ocurrió un error!</h3>
+    </div>
+    <div class="modal-body">
+
+    </div>
+    <div class="modal-footer">
+      <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    </div>
+  </div>
+
+  <script src="js/lib/angular-1.0.2.js"></script>
+  <script src="js/lib/wysihtml5-0.3.0.js"></script>  
+  <script src="js/lib/jquery-1.8.2.min.js"></script>
+  <script src="js/lib/bootstrap.min.js"></script>
+  <script src="js/lib/bootstrap-wysihtml5-0.0.2.min.js"></script>
+  <script src="js/lib/bootstrap-tagmanager.js"></script>
+  <script src="js/lib/jquery-ui-1.9.2.custom.js"></script>
+
+  <script src="js/app/app.js"></script>
+  <script src="js/app/controller/HomeCtrl.js"></script>
+  <script src="js/app/controller/CreateCtrl.js"></script>
+  <script src="js/app/controller/ShowCtrl.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+<img src="css/ui-lightness/images/ui-anim_basic_16x16.gif" ng-hide="loading == false" />
+<div class="span3 well" ng-repeat="i in order" ng-hide="loading == true">
+	<h1>#{{$index+1}}</h1>
+	<img src="{{models[i].img}}" />
+	<p>{{models[i].name}}</p>
+</div>
