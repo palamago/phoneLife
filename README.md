@@ -1,6 +1,6 @@
 PhoneLife
 ============================================
-Represents a time-line of cell phones that had.
+Represents a time-line of cell phones that you had.
 
 **WORK in progress**
 **BETA version**
