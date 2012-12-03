@@ -357,3 +357,17 @@ body {
 * html .ui-autocomplete {
     height: 300px;
 }
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: #45aeea;
+  color: #fff; 
+}
+
+#footer a {
+  color: #fff;
+  text-decoration: underline;
+}
